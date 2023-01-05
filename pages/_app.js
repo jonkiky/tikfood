@@ -44,7 +44,10 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
-  
+      <script
+  type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDy06wrAQU9P5yyRciQhGTpb8ci9MP9gU4&libraries=places"
+/>
       </Head>
       <Component {...pageProps} />
     

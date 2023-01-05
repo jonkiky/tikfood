@@ -16,15 +16,11 @@ function ListPage() {
 	  <Header/>
 	  <HiddenMd>
 	  	<SearchSection>
-		 	  	<Search />
 		 </SearchSection>
 	 </HiddenMd>
 	  <div className="flex flex-row">
 		  <Filter/>
-		<div id="center">
-			
 		  <Scorllingls/>
-		</div>
 		  <GMap/>
 	  </div>
   </div>
